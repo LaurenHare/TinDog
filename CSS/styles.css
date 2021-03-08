@@ -1,0 +1,141 @@
+#title{text-align: left}
+
+
+html{scroll-behavior: smooth}
+
+body{  
+    font-family:"Montserrat";
+    text-align: center;}
+
+h2, h3 {font-weight: 600}
+
+.container-fluid{padding: 3% 8% 7%}
+
+/*section*/
+
+.white-section{color:white}
+
+.background-white{background-color: white}    
+
+.background-pink{background-color:#ff4c68}
+
+.background-lightpink{background-color: #ef8172}
+
+/*main heading*/
+
+.main-heading{
+    line-height: 1.5;
+    font-size:3.5rem;
+    font-weight: 900;}
+
+    /* Nav Bar*/
+
+.navbar{
+    padding: 0 0 4.5rem}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold}
+
+.nav-item{padding: 0 18px}
+
+.nav-link{font-size: 1.2rem}
+
+    /* download button*/
+
+.download-button{margin:5% 3% 5% 0}
+
+    /*Title image */
+
+.title-image{
+    width:20%;
+    transform:rotate(25deg);
+    position: absolute;
+    right:17%}
+
+    /*Features*/ 
+
+#features{
+    padding:7% 15%;
+    position: relative}
+
+.feature-text{ font-size: 1.5rem;}
+
+.features-box{
+    padding:5%;
+    line-height: 30px}
+
+.feature-images{
+    color:#ef8172;
+    margin-bottom:1rem}
+
+.feature-images:hover{color:#ff4c68}   
+
+/*Testimonials  section*/
+
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5}
+
+.testimonial-img{
+    border-radius: 100%;
+    margin:20px;
+    height: 100px;
+}
+
+.carousel-item{
+    padding:7% 15%;
+}
+
+/*Press*/
+#press{padding-bottom: 5%;}
+
+.press-img{
+    width:15%;
+    padding: 20px
+}
+/*Pricing section*/
+
+#pricing{
+    padding:100px;
+}
+
+.price-text{ 
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#title.container-fluid{padding:3% 15% }
+
+.pricing-text{
+    font-size: 1.5rem;
+}
+
+.pricing-col{padding:3% 2%}
+
+.space{margin-bottom:57px}
+
+@media (max-width: 1083px){
+    #title{text-align: center}
+    
+
+    
+    .title-image{
+        position:static;
+        width:55%;
+        transform: rotate(0)}
+    }
+
+    /*call to action */ 
+
+    #cta{padding:7% 15%}
+
+    /*Footer */ 
+
+    #footer{
+        padding: 3% 7%
+    }
+    .footer-fab{
+        padding:1%
+    }
